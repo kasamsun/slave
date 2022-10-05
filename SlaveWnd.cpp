@@ -1,11 +1,11 @@
 #include "SlaveWnd.h"
 
 #include <stdio.h>
-#include <GenericClickWnd.h>
-#include <CoolDlg.h>
-#include <DCEx.h>
-#include <Tooltip.h>
-#include <CoolButton.h>
+#include "kswafx/GenericClickWnd.h"
+#include "kswafx/CoolDlg.h"
+#include "kswafx/DCEx.h"
+#include "kswafx/Tooltip.h"
+#include "kswafx/CoolButton.h"
 
 #include "resource.h"
 #include "SlaveCard.h"
@@ -794,7 +794,7 @@ LRESULT C_SlaveWnd::OnPickUpCardTimer()
 {
 	// 303 because pickcardwnd 'll move incorrectly when X Pos is the same
 	POINT pntDesPos = {450,-(CARD_HEIGHT*2)};
-	static i = 0;
+	static int i = 0;
 
 	if ( m_bPickingUp == 1 )
 	{
@@ -1149,8 +1149,8 @@ int C_SlaveWnd::Discard(int nPos,int nLastPos,
 		}
     }
 
-	static nOffsetX = 233;
-	static nOffsetY = 40;
+	static int nOffsetX = 233;
+	static int nOffsetY = 40;
 
 	if ( nLastPos < 0 ) { nOffsetX = 233; nOffsetY = 40; }
 	if ( nOffsetY > 130 ) { nOffsetX -= 110; nOffsetY -= 110; }

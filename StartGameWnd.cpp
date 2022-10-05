@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "resource.h"
 #include "SlaveWnd.h"
-#include "CoolButton.h"
+#include "kswafx/CoolButton.h"
 #include "PlayerWnd.h"
 
 #define EMPTY_LOT			-1

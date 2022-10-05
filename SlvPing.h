@@ -1,7 +1,7 @@
 #ifndef _C_SLVPING_H_
 #define _C_SLVPING_H_
 
-#include <IcmpPing.h>
+#include "kswafx/IcmpPing.h"
 
 // ==========================================
 // IcmpPing need WSAStartup before use 

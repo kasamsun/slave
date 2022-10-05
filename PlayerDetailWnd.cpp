@@ -1,8 +1,8 @@
 #include "PlayerDetailWnd.h"
 
 #include <stdio.h>
-#include <DCEx.h>
-#include <Tooltip.h>
+#include "kswafx/DCEx.h"
+#include "kswafx/Tooltip.h"
 #include "resource.h"
 #include "SlaveWnd.h"
 #include "PlayerWnd.h"

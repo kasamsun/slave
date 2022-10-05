@@ -7,7 +7,7 @@
 enum { SHOW_PLAYER_STATUS=0, SHOW_PLAYER_INFO=1 };
 enum { REFRESH_ALL,REFRESH_POSITION,REFRESH_DISCARDSTATUS,REFRESH_CARDLIST,REFRESH_HISTORY };
 
-#include <GenericClickWnd.h>
+#include "kswafx/GenericClickWnd.h"
 class C_PlayerWnd;
 class C_Player;
 class C_Tooltip;

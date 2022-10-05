@@ -4,9 +4,9 @@
 #define STARTGAMEWND_WIDTH	270
 #define STARTGAMEWND_HEIGHT	340
 
-#include <GenericWnd.h>
+#include "kswafx/GenericWnd.h"
 #include "Slave.h"
-#include <Tooltip.h>
+#include "kswafx/Tooltip.h"
 
 class C_SlaveWnd;
 class C_CoolButton;

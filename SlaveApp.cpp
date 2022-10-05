@@ -1,6 +1,6 @@
-#include <RegistryKey.h>
+#include "kswafx/RegistryKey.h"
 #include <stdio.h>
-#include <GenericWnd.h>
+#include "kswafx/GenericWnd.h"
 
 #include "resource.h"
 #include "SlaveApp.h"
@@ -190,7 +190,7 @@ int C_SlaveApp::UpdatePlayerSlot(int nSlot)
 
 void C_SlaveApp::OpenRegistry()
 {
-    m_RegKey.Open(HKEY_LOCAL_MACHINE,JUBMOO_REGISTRY);
+    m_RegKey.Open(HKEY_CURRENT_USER,JUBMOO_REGISTRY);
 }
 
 void C_SlaveApp::CloseRegistry()

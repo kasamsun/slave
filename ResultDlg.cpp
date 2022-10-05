@@ -1,7 +1,7 @@
 #include "ResultDlg.h"
 
 #include <stdio.h>
-#include <CoolStatic.h>
+#include "kswafx/CoolStatic.h"
 #include "resource.h"
 #include "PlayerWnd.h"
 #include "Slave.h"

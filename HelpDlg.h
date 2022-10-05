@@ -1,7 +1,7 @@
 #ifndef _C_HELPDLG_H_
 #define _C_HELPDLG_H_
 
-#include <Dialog.h>
+#include "kswafx/Dialog.h"
 
 class C_HelpDlg : public C_Dialog
 {

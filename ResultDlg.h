@@ -1,7 +1,7 @@
 #ifndef _C_RESULTDLG_H_
 #define _C_RESULTDLG_H_
 
-#include <Dialog.h>
+#include "kswafx/Dialog.h"
 
 class C_PlayerWnd;
 class C_CoolStatic;

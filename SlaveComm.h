@@ -1,7 +1,7 @@
 #ifndef _C_SLAVECOMM_H_
 #define _C_SLAVECOMM_H_
 
-#include <MyWinsock.h>
+#include "kswafx/MyWinsock.h"
 #include "Slave.h"
 #include <stdio.h>
 

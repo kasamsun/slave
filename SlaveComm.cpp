@@ -1404,7 +1404,7 @@ void C_SlaveComm::OnClose(int nErrCode)
 // ===================================================
 LRESULT C_SlaveComm::OnPaint(WPARAM,LPARAM)
 {
-	static bBlink = TRUE;
+	static int bBlink = TRUE;
 	PAINTSTRUCT ps;
 	m_hDC = BeginPaint( m_hWnd, &ps );
 

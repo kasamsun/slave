@@ -1,0 +1,1398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c64edc62-e03c-4021-891a-e65664c135ff}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b0fa84c0-2fa3-4739-a0a2-7bcd4d68be3f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{04db64dc-fd11-4ca8-b1d4-3737012c6636}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpPreviewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CardWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceSelectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgPopupWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetStatDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PickCardWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDetailWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Slave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlaveAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlaveApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlaveComm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlaveWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlvPing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\CoolButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\CoolDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\CoolStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\DCEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\Edit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\GenericClickWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\GenericWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\IcmpPing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\MainAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\MCI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\MyThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\MyWinsock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\RegistryKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\Static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\TabControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kswafx\Tooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Slave.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpPreviewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceSelectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgPopupWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetStatDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PickCardWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDetailWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Slave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveComm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlvPing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\CoolButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\CoolDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\CoolStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\dcex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\Dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\Edit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\GenericClickWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\GenericWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\IcmpPing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\MainAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\MCI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\MyTempl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\MyThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\MyWinsock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\RegistryKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\Static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\TabControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kswafx\Tooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\16_card01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Actmask.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Aesop%27s Son.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Arab Sam.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Argo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Arthur.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Babs Bunny.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Baby Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Barney.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bart Picasso.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bart Polo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bart The Raven.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bart the Mime.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bartina.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bartman.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Batman1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bert.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bettle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Big Bird.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bill The Cat1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Binkley.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bird%27s Any.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Black Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Boo Boo.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brain.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brainy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Brutus.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bullwinkle.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Butch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CB Dirty Snowman.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CB Freda.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CB Pig Pen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CB Violet.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CB WWII Ace.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Calvin.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Charlie Brown.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Chicken.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Concord.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cookie Monster.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cool Sly.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Corporal Punishment.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Count Bartula.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cyberdog.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cyote.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DM Colonel K.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DM Crumbs.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DM Custard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DM Danger Mouse.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DM Nero.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DM Penfold.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dacin%27 Homer.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Daffy Duck.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dilbert Boss.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dilbert.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dino.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Donald 1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Doogie Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dot 2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dr. Scratchy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Dragon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Drowned Cat.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Duck Dodgers.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Eeyore.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Elmer Fudd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Elmyra.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ernie.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Evil Calvin.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS Duck.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS Eugene.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS2 Clown.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS2 Cow.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS2 God.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS2 Goofy Pooch.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS2 Penguin2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FS2 Snake.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Fallout Boy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Felix.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Fifi.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Foghorn.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Fred.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Freda.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Garfield 2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Gargamel.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Geek.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\General.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Gidney.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Goofy 1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Gromit2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Hagar the Horrible.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Hampton.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Happy Bart.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Happy Little Elf.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Hiroshi.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Hobbes.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Hodgepodge.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Huckleberry.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Jerry.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Jimmy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Jon.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Judge Bart.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Junior Camper Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Junior.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR Kaman Rider 1 (old).ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR Kaman Rider 1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR Kaman Rider 2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR Riderman 4.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Amazon 6.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Black 11.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Black RX 12.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Shinn 13.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Sky 8.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Strong 7.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\KR-Super 9.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kazama.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kermit.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kr-j 15.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kr-v3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kr-x 5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kr-zo 14.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Kr-zx 10.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Linus.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Lisa.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Lucy 1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MS-06F.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MS-06S.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MS-14F.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MS-14FS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MS-21C.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Marvin.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\McBain.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Michael Jackson Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Milo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Mr Peabody.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Mr. Skullhead.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ninja Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Odie.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Olive Oyl.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Oliver.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Opus II.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Paige.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Papa Smurf.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Parasite.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pebbles.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pepe le Pu.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Piglet.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pink Panther.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pinky.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Plucky Duck.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pooh.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Popeye Jeep.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Popeye.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Portnoy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Preston.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Private Buggs.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Psychiatrist Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RGM-79C.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RX-78-2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RX-78GP-01.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RX-78GP-02A.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RX-78GP-03S.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Radioactive Man.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RoadRunner.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Rocko 2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Roger.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Bone Head.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Darn.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Dem Bones.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Four Times One.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Snowman.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Three Girl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR Wow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHR unpack.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sam.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Santa%27s Little Helper.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Schnauzi.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Schroder.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Scooby.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sgt Snorkle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shaggy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sheep.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sherman.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shermie.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shinchan.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shoe Elf.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sideshow Rahim.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Smurfette.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Snoopy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Space Foreman.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Speedy G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Steve.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stimpy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stinkbomb.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stork.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Swee%27 Pea.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sylvester.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Terminator Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\The Count.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\The Malcontent.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\The Snitch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tigger.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tom.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tweety.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Ace.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Astra.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Father.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Great01.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Jack.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman King.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Leo.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Neos.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Power.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Taro.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Tiga.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Ultraman80.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Ultraseven.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Ultraseven21.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Unknown.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Zearth.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman Zoffy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ultraman mother.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Violet.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wallace.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wendolene.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wile.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wilma.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Wimpy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Winterized Bart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Woodstock.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Woody.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Yakko 1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Yogi.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Zero.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Ziggy.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\about.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\arngao.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\arrowb.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp29.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp30.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp31.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp32.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp33.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp34.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp35.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp36.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp37.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp38.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp39.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp40.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp41.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp42.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp43.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp44.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp45.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp46.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp47.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp48.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp49.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp50.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp51.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp52.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bochan.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cross.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dirnorm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dirrev.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dsdisc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dsdisc2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dsdisc3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dslast.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dspass.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dswait.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dukdik.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gundam.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\headcom1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\headcom2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\headcom3.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\headcom4.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\headcom5.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\headcom6.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hellokitty.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\isking.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ispeople.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\isqueen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\isslave.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\isvslave.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\iwamari.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\join.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\masao.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\matzusaka.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\misae.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\msgactio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\msgsyste.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nanako.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nenechan.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nobody.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\noofbkng.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\noofbqun.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\noofking.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\noofslav.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pd_wood.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pos1.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pos2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pos3.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pos4.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pos5.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pos6.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\quit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rabbit.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\setting.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shinobu.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\slave.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\smcard.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\start.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\svblogo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\svcard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\svconne1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\svconnec.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\svofflin.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\svonline.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\white.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\yagusa.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\yoshie.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\yoshinga.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\backcard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\curclick.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\curgrasp.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\curpoint.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Clapping.wav" />
+    <Media Include="res\Swooz.wav" />
+    <Media Include="res\boing.wav" />
+    <Media Include="res\discard1.wav" />
+    <Media Include="res\discard2.wav" />
+    <Media Include="res\ohho.wav" />
+    <Media Include="res\shuffle.wav" />
+  </ItemGroup>
+</Project>

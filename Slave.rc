@@ -1,4 +1,4 @@
-//Microsoft Developer Studio generated resource script.
+// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
@@ -7,19 +7,17 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+#include <windows.h>
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Unknown language: 0x1E, 0x1 resources
+// Thai (Thailand) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_THA)
-#ifdef _WIN32
-LANGUAGE 0x1E, 0x1
+LANGUAGE LANG_THAI, SUBLANG_DEFAULT
 #pragma code_page(874)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -27,18 +25,18 @@ LANGUAGE 0x1E, 0x1
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE 
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE 
 BEGIN
     "#include ""afxres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE 
 BEGIN
     "\r\n"
     "\0"
@@ -54,320 +52,622 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_SLAVE               ICON    DISCARDABLE     "res/slave.ico"
-IDI_HEAD1               ICON    DISCARDABLE     "res\\Shinchan.ICO"
-IDI_HEAD2               ICON    DISCARDABLE     "res\\nenechan.ico"
-IDI_HEAD16              ICON    DISCARDABLE     "res\\rabbit.ICO"
-IDI_HEAD3               ICON    DISCARDABLE     "res\\bochan.ICO"
-IDI_HEAD8               ICON    DISCARDABLE     "res\\dukdik.ICO"
-IDI_HEAD10              ICON    DISCARDABLE     "res\\Hiroshi.ICO"
-IDI_HEAD6               ICON    DISCARDABLE     "res\\iwamari.ico"
-IDI_HEAD4               ICON    DISCARDABLE     "res\\Kazama.ICO"
-IDI_HEAD5               ICON    DISCARDABLE     "res\\masao.ico"
-IDI_HEAD13              ICON    DISCARDABLE     "res\\matzusaka.ICO"
-IDI_HEAD11              ICON    DISCARDABLE     "res\\misae.ICO"
-IDI_HEAD15              ICON    DISCARDABLE     "res\\nanako.ICO"
-IDI_HEAD9               ICON    DISCARDABLE     "res\\Actmask.ICO"
-IDI_HEAD14              ICON    DISCARDABLE     "res\\shinobu.ICO"
-IDI_HEAD7               ICON    DISCARDABLE     "res\\white.ICO"
-IDI_HEAD12              ICON    DISCARDABLE     "res\\yoshinga.ICO"
-IDI_NOBODY              ICON    DISCARDABLE     "res\\nobody.ico"
-IDI_ARROWB              ICON    DISCARDABLE     "res\\arrowb.ICO"
-IDI_START               ICON    DISCARDABLE     "res\\start.ico"
-IDI_EXIT                ICON    DISCARDABLE     "res\\exit.ico"
-IDI_HELP                ICON    DISCARDABLE     "res\\help.ico"
-IDI_JOIN                ICON    DISCARDABLE     "res\\join.ico"
-IDI_SETTING             ICON    DISCARDABLE     "res\\setting.ico"
-IDI_ABOUT               ICON    DISCARDABLE     "res\\about.ico"
-IDI_SVONLINE            ICON    DISCARDABLE     "res\\svonline.ico"
-IDI_SVCONNECT           ICON    DISCARDABLE     "res\\svconnec.ico"
-IDI_SVOFFLINE           ICON    DISCARDABLE     "res\\svofflin.ico"
-IDI_SVCONNECT1          ICON    DISCARDABLE     "res\\svconne1.ico"
-IDI_QUIT                ICON    DISCARDABLE     "res\\quit.ico"
-IDI_SMCARD              ICON    DISCARDABLE     "res\\smcard.ico"
-IDI_ISKING              ICON    DISCARDABLE     "res\\isking.ico"
-IDI_ISQUEEN             ICON    DISCARDABLE     "res\\isqueen.ico"
-IDI_ISVSLAVE            ICON    DISCARDABLE     "res\\isvslave.ico"
-IDI_ISSLAVE             ICON    DISCARDABLE     "res\\isslave.ico"
-IDI_DSWAIT              ICON    DISCARDABLE     "res\\dswait.ico"
-IDI_DSDISCARD           ICON    DISCARDABLE     "res\\dsdisc.ico"
-IDI_DSLAST              ICON    DISCARDABLE     "res\\dslast.ico"
-IDI_DSPASS              ICON    DISCARDABLE     "res\\dspass.ico"
-IDI_DSDISCARD2          ICON    DISCARDABLE     "res\\dsdisc2.ico"
-IDI_DSDISCARD3          ICON    DISCARDABLE     "res\\dsdisc3.ico"
-IDI_CROSS               ICON    DISCARDABLE     "res\\cross.ICO"
-IDI_DIRREV              ICON    DISCARDABLE     "res\\dirrev.ICO"
-IDI_DIRNORM             ICON    DISCARDABLE     "res\\dirnorm.ICO"
-IDI_HEADCOM6            ICON    DISCARDABLE     "res\\headcom6.ICO"
-IDI_HEADCOM2            ICON    DISCARDABLE     "res\\headcom2.ICO"
-IDI_HEADCOM3            ICON    DISCARDABLE     "res\\headcom3.ICO"
-IDI_HEADCOM4            ICON    DISCARDABLE     "res\\headcom4.ICO"
-IDI_HEADCOM5            ICON    DISCARDABLE     "res\\headcom5.ICO"
-IDI_HEADCOM1            ICON    DISCARDABLE     "res\\headcom1.ICO"
-IDI_POS6                ICON    DISCARDABLE     "res\\pos6.ICO"
-IDI_POS2                ICON    DISCARDABLE     "res\\pos2.ICO"
-IDI_POS3                ICON    DISCARDABLE     "res\\pos3.ICO"
-IDI_POS4                ICON    DISCARDABLE     "res\\pos4.ICO"
-IDI_POS5                ICON    DISCARDABLE     "res\\pos5.ICO"
-IDI_POS1                ICON    DISCARDABLE     "res\\pos1.ICO"
-IDI_ISPEOPLE            ICON    DISCARDABLE     "res\\ispeople.ico"
-IDI_NOOFBEENQUEEN       ICON    DISCARDABLE     "res\\noofbqun.ico"
-IDI_NOOFBEENKING        ICON    DISCARDABLE     "res\\noofbkng.ico"
-IDI_MSGACTION           ICON    DISCARDABLE     "res\\msgactio.ico"
-IDI_MSGSYSTEM           ICON    DISCARDABLE     "res\\msgsyste.ico"
-IDI_HEAD20              ICON    DISCARDABLE     "res\\yoshie.ICO"
-IDI_HEAD19              ICON    DISCARDABLE     "res\\gundam.ICO"
-IDI_HEAD17              ICON    DISCARDABLE     "res\\yagusa.ICO"
-IDI_HEAD18              ICON    DISCARDABLE     "res\\arngao.ICO"
-IDI_ICON1               ICON    DISCARDABLE     "res\\Wimpy.ICO"
-IDI_ICON2               ICON    DISCARDABLE     "res\\Olive Oyl.ICO"
-IDI_ICON3               ICON    DISCARDABLE     "res\\Popeye Jeep.ico"
-IDI_ICON4               ICON    DISCARDABLE     "res\\Popeye.ICO"
-IDI_ICON5               ICON    DISCARDABLE     "res\\Swee' Pea.ICO"
-IDI_ICON6               ICON    DISCARDABLE     "res\\Brutus.ICO"
-IDI_ICON7               ICON    DISCARDABLE     "res\\Tigger.ICO"
-IDI_ICON8               ICON    DISCARDABLE     "res\\Piglet.ICO"
-IDI_ICON9               ICON    DISCARDABLE     "res\\Pooh.ICO"
-IDI_ICON10              ICON    DISCARDABLE     "res\\Eeyore.ICO"
-IDI_ICON11              ICON    DISCARDABLE     "res\\KR-Shinn 13.ICO"
-IDI_ICON12              ICON    DISCARDABLE     "res\\KR Kaman Rider 1.ICO"
-IDI_ICON13              ICON    DISCARDABLE     "res\\KR Kaman Rider 2.ICO"
-IDI_ICON14              ICON    DISCARDABLE     "res\\KR Riderman 4.ICO"
-IDI_ICON15              ICON    DISCARDABLE     "res\\KR-Amazon 6.ICO"
-IDI_ICON16              ICON    DISCARDABLE     "res\\KR-Black 11.ICO"
-IDI_ICON17              ICON    DISCARDABLE     "res\\KR-Black RX 12.ICO"
-IDI_ICON18              ICON    DISCARDABLE     "res\\KR-J 15.ICO"
-IDI_ICON19              ICON    DISCARDABLE     "res\\KR Kaman Rider 1 (old).ICO"
-IDI_ICON20              ICON    DISCARDABLE     "res\\KR-ZX 10.ICO"
-IDI_ICON21              ICON    DISCARDABLE     "res\\KR-Strong 7.ICO"
-IDI_ICON22              ICON    DISCARDABLE     "res\\KR-Super 9.ICO"
-IDI_ICON23              ICON    DISCARDABLE     "res\\KR-V3.ICO"
-IDI_ICON24              ICON    DISCARDABLE     "res\\KR-X 5.ICO"
-IDI_ICON25              ICON    DISCARDABLE     "res\\KR-ZO 14.ICO"
-IDI_ICON26              ICON    DISCARDABLE     "res\\KR-Sky 8.ICO"
-IDI_ICON27              ICON    DISCARDABLE     "res\\Kermit.ICO"
-IDI_ICON28              ICON    DISCARDABLE     "res\\Big Bird.ICO"
-IDI_ICON29              ICON    DISCARDABLE     "res\\Cookie Monster.ICO"
-IDI_ICON30              ICON    DISCARDABLE     "res\\Ernie.ICO"
-IDI_ICON31              ICON    DISCARDABLE     "res\\Bert.ICO"
-IDI_ICON32              ICON    DISCARDABLE     "res\\Smurfette.ICO"
-IDI_ICON33              ICON    DISCARDABLE     "res\\Gargamel.ICO"
-IDI_ICON34              ICON    DISCARDABLE     "res\\Papa Smurf.ICO"
-IDI_ICON35              ICON    DISCARDABLE     "res\\Brainy.ICO"
-IDI_ICON36              ICON    DISCARDABLE     "res\\Woodstock.ICO"
-IDI_ICON37              ICON    DISCARDABLE     "res\\CB Pig Pen.ico"
-IDI_ICON38              ICON    DISCARDABLE     "res\\CB Violet.ico"
-IDI_ICON39              ICON    DISCARDABLE     "res\\CB WWII Ace.ico"
-IDI_ICON40              ICON    DISCARDABLE     "res\\Charlie Brown.ICO"
-IDI_ICON41              ICON    DISCARDABLE     "res\\Freda.ICO"
-IDI_ICON42              ICON    DISCARDABLE     "res\\Linus.ICO"
-IDI_ICON43              ICON    DISCARDABLE     "res\\Lucy 1.ICO"
-IDI_ICON44              ICON    DISCARDABLE     "res\\Schroder.ICO"
-IDI_ICON45              ICON    DISCARDABLE     "res\\Shermie.ICO"
-IDI_ICON46              ICON    DISCARDABLE     "res\\Snoopy.ICO"
-IDI_ICON47              ICON    DISCARDABLE     "res\\Violet.ICO"
-IDI_ICON48              ICON    DISCARDABLE     "res\\CB Freda.ico"
-IDI_ICON49              ICON    DISCARDABLE     "res\\Ultraman Neos.ICO"
-IDI_ICON50              ICON    DISCARDABLE     "res\\Ultraman Astra.ICO"
-IDI_ICON51              ICON    DISCARDABLE     "res\\Ultraman Father.ICO"
-IDI_ICON52              ICON    DISCARDABLE     "res\\Ultraman Great01.ICO"
-IDI_ICON53              ICON    DISCARDABLE     "res\\Ultraman Jack.ICO"
-IDI_ICON54              ICON    DISCARDABLE     "res\\Ultraman King.ICO"
-IDI_ICON55              ICON    DISCARDABLE     "res\\Ultraman Leo.ICO"
-IDI_ICON56              ICON    DISCARDABLE     "res\\Ultraman mother.ICO"
-IDI_ICON57              ICON    DISCARDABLE     "res\\Ultraman Ace.ICO"
-IDI_ICON58              ICON    DISCARDABLE     "res\\Ultraman Zoffy.ICO"
-IDI_ICON59              ICON    DISCARDABLE     "res\\Ultraman Taro.ICO"
-IDI_ICON60              ICON    DISCARDABLE     "res\\Ultraman Tiga.ICO"
-IDI_ICON61              ICON    DISCARDABLE     "res\\Ultraman Ultraman80.ICO"
-IDI_ICON62              ICON    DISCARDABLE     "res\\Ultraman Ultraseven.ICO"
-IDI_ICON63              ICON    DISCARDABLE     "res\\Ultraman Ultraseven21.ICO"
-IDI_ICON64              ICON    DISCARDABLE     "res\\Ultraman Unknown.ICO"
-IDI_ICON65              ICON    DISCARDABLE     "res\\Ultraman Zearth.ICO"
-IDI_ICON66              ICON    DISCARDABLE     "res\\Ultraman Power.ICO"
-IDI_ICON67              ICON    DISCARDABLE     "res\\Yakko 1.ICO"
-IDI_ICON68              ICON    DISCARDABLE     "res\\Dot 2.ICO"
-IDI_ICON69              ICON    DISCARDABLE     "res\\Felix.ICO"
-IDI_ICON70              ICON    DISCARDABLE     "res\\Garfield 2.ICO"
-IDI_ICON71              ICON    DISCARDABLE     "res\\Hagar the Horrible.ICO"
-IDI_ICON72              ICON    DISCARDABLE     "res\\hellokitty.ICO"
-IDI_ICON73              ICON    DISCARDABLE     "res\\Hobbes.ICO"
-IDI_ICON74              ICON    DISCARDABLE     "res\\Jon.ICO"
-IDI_ICON75              ICON    DISCARDABLE     "res\\Odie.ICO"
-IDI_ICON76              ICON    DISCARDABLE     "res\\Pink Panther.ICO"
-IDI_ICON77              ICON    DISCARDABLE     "res\\Scooby.ICO"
-IDI_ICON78              ICON    DISCARDABLE     "res\\Shaggy.ICO"
-IDI_ICON79              ICON    DISCARDABLE     "res\\Batman1.ico"
-IDI_ICON80              ICON    DISCARDABLE     "res\\Daffy Duck.ICO"
-IDI_ICON81              ICON    DISCARDABLE     "res\\Babs Bunny.ico"
-IDI_ICON82              ICON    DISCARDABLE     "res\\Bird's Any.ico"
-IDI_ICON83              ICON    DISCARDABLE     "res\\Boo Boo.ICO"
-IDI_ICON84              ICON    DISCARDABLE     "res\\Brain.ico"
-IDI_ICON85              ICON    DISCARDABLE     "res\\Butch.ico"
-IDI_ICON86              ICON    DISCARDABLE     "res\\Cool Sly.ico"
-IDI_ICON87              ICON    DISCARDABLE     "res\\Cyote.ico"
-IDI_ICON88              ICON    DISCARDABLE     "res\\Arab Sam.ico"
-IDI_ICON89              ICON    DISCARDABLE     "res\\Jerry.ICO"
-IDI_ICON90              ICON    DISCARDABLE     "res\\Duck Dodgers.ico"
-IDI_ICON91              ICON    DISCARDABLE     "res\\Elmer Fudd.ico"
-IDI_ICON92              ICON    DISCARDABLE     "res\\Elmyra.ico"
-IDI_ICON93              ICON    DISCARDABLE     "res\\Fifi.ico"
-IDI_ICON94              ICON    DISCARDABLE     "res\\Foghorn.ICO"
-IDI_ICON95              ICON    DISCARDABLE     "res\\Hampton.ICO"
-IDI_ICON96              ICON    DISCARDABLE     "res\\Huckleberry.ICO"
-IDI_ICON97              ICON    DISCARDABLE     "res\\Drowned Cat.ico"
-IDI_ICON98              ICON    DISCARDABLE     "res\\Shoe Elf.ico"
-IDI_ICON99              ICON    DISCARDABLE     "res\\Marvin.ICO"
-IDI_ICON100             ICON    DISCARDABLE     "res\\Pepe le Pu.ICO"
-IDI_ICON101             ICON    DISCARDABLE     "res\\Pinky.ICO"
-IDI_ICON102             ICON    DISCARDABLE     "res\\Plucky Duck.ico"
-IDI_ICON103             ICON    DISCARDABLE     "res\\Private Buggs.ICO"
-IDI_ICON104             ICON    DISCARDABLE     "res\\RoadRunner.ICO"
-IDI_ICON105             ICON    DISCARDABLE     "res\\Sam.ico"
-IDI_ICON106             ICON    DISCARDABLE     "res\\Junior.ico"
-IDI_ICON107             ICON    DISCARDABLE     "res\\Yogi.ICO"
-IDI_ICON108             ICON    DISCARDABLE     "res\\Speedy G.ico"
-IDI_ICON109             ICON    DISCARDABLE     "res\\Stimpy.ICO"
-IDI_ICON110             ICON    DISCARDABLE     "res\\Sylvester.ICO"
-IDI_ICON111             ICON    DISCARDABLE     "res\\Tom.ICO"
-IDI_ICON112             ICON    DISCARDABLE     "res\\Tweety.ICO"
-IDI_ICON113             ICON    DISCARDABLE     "res\\Wile.ICO"
-IDI_ICON114             ICON    DISCARDABLE     "res\\Woody.ICO"
-IDI_ICON115             ICON    DISCARDABLE     "res\\Space Foreman.ico"
-IDI_ICON116             ICON    DISCARDABLE     "res\\RX-78GP-03S.ico"
-IDI_ICON117             ICON    DISCARDABLE     "res\\MS-06S.ico"
-IDI_ICON118             ICON    DISCARDABLE     "res\\MS-14F.ico"
-IDI_ICON119             ICON    DISCARDABLE     "res\\MS-14FS.ico"
-IDI_ICON120             ICON    DISCARDABLE     "res\\MS-21C.ico"
-IDI_ICON121             ICON    DISCARDABLE     "res\\RGM-79C.ico"
-IDI_ICON122             ICON    DISCARDABLE     "res\\RX-78-2.ico"
-IDI_ICON123             ICON    DISCARDABLE     "res\\RX-78GP-01.ico"
-IDI_ICON124             ICON    DISCARDABLE     "res\\RX-78GP-02A.ico"
-IDI_ICON125             ICON    DISCARDABLE     "res\\MS-06F.ico"
-IDI_ICON126             ICON    DISCARDABLE     "res\\Wilma.ICO"
-IDI_ICON127             ICON    DISCARDABLE     "res\\Dino.ICO"
-IDI_ICON128             ICON    DISCARDABLE     "res\\Fred.ICO"
-IDI_ICON129             ICON    DISCARDABLE     "res\\Pebbles.ICO"
-IDI_ICON130             ICON    DISCARDABLE     "res\\Barney.ICO"
-IDI_ICON131             ICON    DISCARDABLE     "res\\Jimmy.ico"
-IDI_ICON132             ICON    DISCARDABLE     "res\\Goofy 1.ICO"
-IDI_ICON133             ICON    DISCARDABLE     "res\\Donald 1.ICO"
-IDI_ICON134             ICON    DISCARDABLE     "res\\Corporal Punishment.ico"
-IDI_ICON135             ICON    DISCARDABLE     "res\\Bart Picasso.ico"
-IDI_ICON136             ICON    DISCARDABLE     "res\\Bart Polo.ico"
-IDI_ICON137             ICON    DISCARDABLE     "res\\Bart the Mime.ICO"
-IDI_ICON138             ICON    DISCARDABLE     "res\\Bart The Raven.ICO"
-IDI_ICON139             ICON    DISCARDABLE     "res\\Bartina.ico"
-IDI_ICON140             ICON    DISCARDABLE     "res\\Bartman.ico"
-IDI_ICON141             ICON    DISCARDABLE     "res\\Black Bart.ico"
-IDI_ICON142             ICON    DISCARDABLE     "res\\Baby Bart.ico"
-IDI_ICON143             ICON    DISCARDABLE     "res\\Lisa.ICO"
-IDI_ICON144             ICON    DISCARDABLE     "res\\Dacin' Homer.ICO"
-IDI_ICON145             ICON    DISCARDABLE     "res\\Doogie Bart.ico"
-IDI_ICON146             ICON    DISCARDABLE     "res\\Fallout Boy.ico"
-IDI_ICON147             ICON    DISCARDABLE     "res\\Geek.ico"
-IDI_ICON148             ICON    DISCARDABLE     "res\\Happy Bart.ICO"
-IDI_ICON149             ICON    DISCARDABLE     "res\\Judge Bart.ICO"
-IDI_ICON150             ICON    DISCARDABLE     "res\\Junior Camper Bart.ico"
-IDI_ICON151             ICON    DISCARDABLE     "res\\Count Bartula.ICO"
-IDI_ICON152             ICON    DISCARDABLE     "res\\Winterized Bart.ico"
-IDI_ICON153             ICON    DISCARDABLE     "res\\Michael Jackson Bart.ico"
-IDI_ICON154             ICON    DISCARDABLE     "res\\Ninja Bart.ico"
-IDI_ICON155             ICON    DISCARDABLE     "res\\Psychiatrist Bart.ico"
-IDI_ICON156             ICON    DISCARDABLE     "res\\Radioactive Man.ico"
-IDI_ICON157             ICON    DISCARDABLE     "res\\Sideshow Rahim.ico"
-IDI_ICON158             ICON    DISCARDABLE     "res\\Terminator Bart.ico"
-IDI_ICON159             ICON    DISCARDABLE     "res\\The Malcontent.ico"
-IDI_ICON160             ICON    DISCARDABLE     "res\\The Snitch.ico"
-IDI_ICON161             ICON    DISCARDABLE     "res\\McBain.ico"
-IDI_ICON162             ICON    DISCARDABLE     "res\\Cyberdog.ico"
-IDI_ICON163             ICON    DISCARDABLE     "res\\Argo.ico"
-IDI_ICON164             ICON    DISCARDABLE     "res\\Arthur.ico"
-IDI_ICON165             ICON    DISCARDABLE     "res\\Bettle.ico"
-IDI_ICON166             ICON    DISCARDABLE     "res\\Bill The Cat1.ico"
-IDI_ICON167             ICON    DISCARDABLE     "res\\Binkley.ico"
-IDI_ICON168             ICON    DISCARDABLE     "res\\Bullwinkle.ICO"
-IDI_ICON169             ICON    DISCARDABLE     "res\\Calvin.ICO"
-IDI_ICON170             ICON    DISCARDABLE     "res\\CB Dirty Snowman.ico"
-IDI_ICON171             ICON    DISCARDABLE     "res\\Chicken.ico"
-IDI_ICON172             ICON    DISCARDABLE     "res\\Concord.ico"
-IDI_ICON173             ICON    DISCARDABLE     "res\\Aesop's Son.ICO"
-IDI_ICON174             ICON    DISCARDABLE     "res\\Evil Calvin.ico"
-IDI_ICON175             ICON    DISCARDABLE     "res\\Dilbert.ICO"
-IDI_ICON176             ICON    DISCARDABLE     "res\\DM Colonel K.ico"
-IDI_ICON177             ICON    DISCARDABLE     "res\\DM Crumbs.ico"
-IDI_ICON178             ICON    DISCARDABLE     "res\\DM Custard.ico"
-IDI_ICON179             ICON    DISCARDABLE     "res\\DM Danger Mouse.ico"
-IDI_ICON180             ICON    DISCARDABLE     "res\\DM Nero.ico"
-IDI_ICON181             ICON    DISCARDABLE     "res\\DM Penfold.ico"
-IDI_ICON182             ICON    DISCARDABLE     "res\\Dr. Scratchy.ico"
-IDI_ICON183             ICON    DISCARDABLE     "res\\Dragon.ico"
-IDI_ICON184             ICON    DISCARDABLE     "res\\Dilbert Boss.ICO"
-IDI_ICON185             ICON    DISCARDABLE     "res\\Hodgepodge.ico"
-IDI_ICON186             ICON    DISCARDABLE     "res\\FS Eugene.ICO"
-IDI_ICON187             ICON    DISCARDABLE     "res\\FS2 Clown.ICO"
-IDI_ICON188             ICON    DISCARDABLE     "res\\FS2 Cow.ICO"
-IDI_ICON189             ICON    DISCARDABLE     "res\\FS2 God.ICO"
-IDI_ICON190             ICON    DISCARDABLE     "res\\FS2 Goofy Pooch.ICO"
-IDI_ICON191             ICON    DISCARDABLE     "res\\FS2 Penguin2.ICO"
-IDI_ICON192             ICON    DISCARDABLE     "res\\FS2 Snake.ICO"
-IDI_ICON193             ICON    DISCARDABLE     "res\\General.ico"
-IDI_ICON194             ICON    DISCARDABLE     "res\\Gidney.ico"
-IDI_ICON195             ICON    DISCARDABLE     "res\\Gromit2.ICO"
-IDI_ICON196             ICON    DISCARDABLE     "res\\Happy Little Elf.ico"
-IDI_ICON197             ICON    DISCARDABLE     "res\\FS Duck.ICO"
-IDI_ICON198             ICON    DISCARDABLE     "res\\Roger.ICO"
-IDI_ICON199             ICON    DISCARDABLE     "res\\Mr Peabody.ICO"
-IDI_ICON200             ICON    DISCARDABLE     "res\\Mr. Skullhead.ico"
-IDI_ICON201             ICON    DISCARDABLE     "res\\Oliver.ico"
-IDI_ICON202             ICON    DISCARDABLE     "res\\Opus II.ICO"
-IDI_ICON203             ICON    DISCARDABLE     "res\\Paige.ICO"
-IDI_ICON204             ICON    DISCARDABLE     "res\\Parasite.ico"
-IDI_ICON205             ICON    DISCARDABLE     "res\\Portnoy.ico"
-IDI_ICON206             ICON    DISCARDABLE     "res\\Preston.ico"
-IDI_ICON207             ICON    DISCARDABLE     "res\\Rocko 2.ICO"
-IDI_ICON208             ICON    DISCARDABLE     "res\\Milo.ico"
-IDI_ICON209             ICON    DISCARDABLE     "res\\SHR Wow.ico"
-IDI_ICON210             ICON    DISCARDABLE     "res\\Schnauzi.ico"
-IDI_ICON211             ICON    DISCARDABLE     "res\\Sgt Snorkle.ico"
-IDI_ICON212             ICON    DISCARDABLE     "res\\Sheep.ico"
-IDI_ICON213             ICON    DISCARDABLE     "res\\Sherman.ICO"
-IDI_ICON214             ICON    DISCARDABLE     "res\\SHR Bone Head.ico"
-IDI_ICON215             ICON    DISCARDABLE     "res\\SHR Darn.ico"
-IDI_ICON216             ICON    DISCARDABLE     "res\\SHR Dem Bones.ico"
-IDI_ICON217             ICON    DISCARDABLE     "res\\SHR Four Times One.ico"
-IDI_ICON218             ICON    DISCARDABLE     "res\\SHR Snowman.ico"
-IDI_ICON219             ICON    DISCARDABLE     "res\\SHR Three Girl.ico"
-IDI_ICON220             ICON    DISCARDABLE     "res\\SHR unpack.ico"
-IDI_ICON221             ICON    DISCARDABLE     "res\\Santa's Little Helper.ICO"
-IDI_ICON222             ICON    DISCARDABLE     "res\\Ziggy.ICO"
-IDI_ICON223             ICON    DISCARDABLE     "res\\Stinkbomb.ico"
-IDI_ICON224             ICON    DISCARDABLE     "res\\Stork.ico"
-IDI_ICON225             ICON    DISCARDABLE     "res\\The Count.ICO"
-IDI_ICON226             ICON    DISCARDABLE     "res\\Wallace.ico"
-IDI_ICON227             ICON    DISCARDABLE     "res\\Wendolene.ico"
-IDI_ICON228             ICON    DISCARDABLE     "res\\Zero.ico"
-IDI_ICON229             ICON    DISCARDABLE     "res\\Steve.ico"
+IDI_SLAVE               ICON                    "res/slave.ico"
+
+IDI_HEAD1               ICON                    "res\\Shinchan.ICO"
+
+IDI_HEAD2               ICON                    "res\\nenechan.ico"
+
+IDI_HEAD16              ICON                    "res\\rabbit.ICO"
+
+IDI_HEAD3               ICON                    "res\\bochan.ICO"
+
+IDI_HEAD8               ICON                    "res\\dukdik.ICO"
+
+IDI_HEAD10              ICON                    "res\\Hiroshi.ICO"
+
+IDI_HEAD6               ICON                    "res\\iwamari.ico"
+
+IDI_HEAD4               ICON                    "res\\Kazama.ICO"
+
+IDI_HEAD5               ICON                    "res\\masao.ico"
+
+IDI_HEAD13              ICON                    "res\\matzusaka.ICO"
+
+IDI_HEAD11              ICON                    "res\\misae.ICO"
+
+IDI_HEAD15              ICON                    "res\\nanako.ICO"
+
+IDI_HEAD9               ICON                    "res\\Actmask.ICO"
+
+IDI_HEAD14              ICON                    "res\\shinobu.ICO"
+
+IDI_HEAD7               ICON                    "res\\white.ICO"
+
+IDI_HEAD12              ICON                    "res\\yoshinga.ICO"
+
+IDI_NOBODY              ICON                    "res\\nobody.ico"
+
+IDI_ARROWB              ICON                    "res\\arrowb.ICO"
+
+IDI_START               ICON                    "res\\start.ico"
+
+IDI_EXIT                ICON                    "res\\exit.ico"
+
+IDI_HELP                ICON                    "res\\help.ico"
+
+IDI_JOIN                ICON                    "res\\join.ico"
+
+IDI_SETTING             ICON                    "res\\setting.ico"
+
+IDI_ABOUT               ICON                    "res\\about.ico"
+
+IDI_SVONLINE            ICON                    "res\\svonline.ico"
+
+IDI_SVCONNECT           ICON                    "res\\svconnec.ico"
+
+IDI_SVOFFLINE           ICON                    "res\\svofflin.ico"
+
+IDI_SVCONNECT1          ICON                    "res\\svconne1.ico"
+
+IDI_QUIT                ICON                    "res\\quit.ico"
+
+IDI_SMCARD              ICON                    "res\\smcard.ico"
+
+IDI_ISKING              ICON                    "res\\isking.ico"
+
+IDI_ISQUEEN             ICON                    "res\\isqueen.ico"
+
+IDI_ISVSLAVE            ICON                    "res\\isvslave.ico"
+
+IDI_ISSLAVE             ICON                    "res\\isslave.ico"
+
+IDI_DSWAIT              ICON                    "res\\dswait.ico"
+
+IDI_DSDISCARD           ICON                    "res\\dsdisc.ico"
+
+IDI_DSLAST              ICON                    "res\\dslast.ico"
+
+IDI_DSPASS              ICON                    "res\\dspass.ico"
+
+IDI_DSDISCARD2          ICON                    "res\\dsdisc2.ico"
+
+IDI_DSDISCARD3          ICON                    "res\\dsdisc3.ico"
+
+IDI_CROSS               ICON                    "res\\cross.ICO"
+
+IDI_DIRREV              ICON                    "res\\dirrev.ICO"
+
+IDI_DIRNORM             ICON                    "res\\dirnorm.ICO"
+
+IDI_HEADCOM6            ICON                    "res\\headcom6.ICO"
+
+IDI_HEADCOM2            ICON                    "res\\headcom2.ICO"
+
+IDI_HEADCOM3            ICON                    "res\\headcom3.ICO"
+
+IDI_HEADCOM4            ICON                    "res\\headcom4.ICO"
+
+IDI_HEADCOM5            ICON                    "res\\headcom5.ICO"
+
+IDI_HEADCOM1            ICON                    "res\\headcom1.ICO"
+
+IDI_POS6                ICON                    "res\\pos6.ICO"
+
+IDI_POS2                ICON                    "res\\pos2.ICO"
+
+IDI_POS3                ICON                    "res\\pos3.ICO"
+
+IDI_POS4                ICON                    "res\\pos4.ICO"
+
+IDI_POS5                ICON                    "res\\pos5.ICO"
+
+IDI_POS1                ICON                    "res\\pos1.ICO"
+
+IDI_ISPEOPLE            ICON                    "res\\ispeople.ico"
+
+IDI_NOOFBEENQUEEN       ICON                    "res\\noofbqun.ico"
+
+IDI_NOOFBEENKING        ICON                    "res\\noofbkng.ico"
+
+IDI_MSGACTION           ICON                    "res\\msgactio.ico"
+
+IDI_MSGSYSTEM           ICON                    "res\\msgsyste.ico"
+
+IDI_HEAD20              ICON                    "res\\yoshie.ICO"
+
+IDI_HEAD19              ICON                    "res\\gundam.ICO"
+
+IDI_HEAD17              ICON                    "res\\yagusa.ICO"
+
+IDI_HEAD18              ICON                    "res\\arngao.ICO"
+
+IDI_ICON1               ICON                    "res\\Wimpy.ICO"
+
+IDI_ICON2               ICON                    "res\\Olive Oyl.ICO"
+
+IDI_ICON3               ICON                    "res\\Popeye Jeep.ico"
+
+IDI_ICON4               ICON                    "res\\Popeye.ICO"
+
+IDI_ICON5               ICON                    "res\\Swee' Pea.ICO"
+
+IDI_ICON6               ICON                    "res\\Brutus.ICO"
+
+IDI_ICON7               ICON                    "res\\Tigger.ICO"
+
+IDI_ICON8               ICON                    "res\\Piglet.ICO"
+
+IDI_ICON9               ICON                    "res\\Pooh.ICO"
+
+IDI_ICON10              ICON                    "res\\Eeyore.ICO"
+
+IDI_ICON11              ICON                    "res\\KR-Shinn 13.ICO"
+
+IDI_ICON12              ICON                    "res\\KR Kaman Rider 1.ICO"
+
+IDI_ICON13              ICON                    "res\\KR Kaman Rider 2.ICO"
+
+IDI_ICON14              ICON                    "res\\KR Riderman 4.ICO"
+
+IDI_ICON15              ICON                    "res\\KR-Amazon 6.ICO"
+
+IDI_ICON16              ICON                    "res\\KR-Black 11.ICO"
+
+IDI_ICON17              ICON                    "res\\KR-Black RX 12.ICO"
+
+IDI_ICON18              ICON                    "res\\KR-J 15.ICO"
+
+IDI_ICON19              ICON                    "res\\KR Kaman Rider 1 (old).ICO"
+
+IDI_ICON20              ICON                    "res\\KR-ZX 10.ICO"
+
+IDI_ICON21              ICON                    "res\\KR-Strong 7.ICO"
+
+IDI_ICON22              ICON                    "res\\KR-Super 9.ICO"
+
+IDI_ICON23              ICON                    "res\\KR-V3.ICO"
+
+IDI_ICON24              ICON                    "res\\KR-X 5.ICO"
+
+IDI_ICON25              ICON                    "res\\KR-ZO 14.ICO"
+
+IDI_ICON26              ICON                    "res\\KR-Sky 8.ICO"
+
+IDI_ICON27              ICON                    "res\\Kermit.ICO"
+
+IDI_ICON28              ICON                    "res\\Big Bird.ICO"
+
+IDI_ICON29              ICON                    "res\\Cookie Monster.ICO"
+
+IDI_ICON30              ICON                    "res\\Ernie.ICO"
+
+IDI_ICON31              ICON                    "res\\Bert.ICO"
+
+IDI_ICON32              ICON                    "res\\Smurfette.ICO"
+
+IDI_ICON33              ICON                    "res\\Gargamel.ICO"
+
+IDI_ICON34              ICON                    "res\\Papa Smurf.ICO"
+
+IDI_ICON35              ICON                    "res\\Brainy.ICO"
+
+IDI_ICON36              ICON                    "res\\Woodstock.ICO"
+
+IDI_ICON37              ICON                    "res\\CB Pig Pen.ico"
+
+IDI_ICON38              ICON                    "res\\CB Violet.ico"
+
+IDI_ICON39              ICON                    "res\\CB WWII Ace.ico"
+
+IDI_ICON40              ICON                    "res\\Charlie Brown.ICO"
+
+IDI_ICON41              ICON                    "res\\Freda.ICO"
+
+IDI_ICON42              ICON                    "res\\Linus.ICO"
+
+IDI_ICON43              ICON                    "res\\Lucy 1.ICO"
+
+IDI_ICON44              ICON                    "res\\Schroder.ICO"
+
+IDI_ICON45              ICON                    "res\\Shermie.ICO"
+
+IDI_ICON46              ICON                    "res\\Snoopy.ICO"
+
+IDI_ICON47              ICON                    "res\\Violet.ICO"
+
+IDI_ICON48              ICON                    "res\\CB Freda.ico"
+
+IDI_ICON49              ICON                    "res\\Ultraman Neos.ICO"
+
+IDI_ICON50              ICON                    "res\\Ultraman Astra.ICO"
+
+IDI_ICON51              ICON                    "res\\Ultraman Father.ICO"
+
+IDI_ICON52              ICON                    "res\\Ultraman Great01.ICO"
+
+IDI_ICON53              ICON                    "res\\Ultraman Jack.ICO"
+
+IDI_ICON54              ICON                    "res\\Ultraman King.ICO"
+
+IDI_ICON55              ICON                    "res\\Ultraman Leo.ICO"
+
+IDI_ICON56              ICON                    "res\\Ultraman mother.ICO"
+
+IDI_ICON57              ICON                    "res\\Ultraman Ace.ICO"
+
+IDI_ICON58              ICON                    "res\\Ultraman Zoffy.ICO"
+
+IDI_ICON59              ICON                    "res\\Ultraman Taro.ICO"
+
+IDI_ICON60              ICON                    "res\\Ultraman Tiga.ICO"
+
+IDI_ICON61              ICON                    "res\\Ultraman Ultraman80.ICO"
+
+IDI_ICON62              ICON                    "res\\Ultraman Ultraseven.ICO"
+
+IDI_ICON63              ICON                    "res\\Ultraman Ultraseven21.ICO"
+
+IDI_ICON64              ICON                    "res\\Ultraman Unknown.ICO"
+
+IDI_ICON65              ICON                    "res\\Ultraman Zearth.ICO"
+
+IDI_ICON66              ICON                    "res\\Ultraman Power.ICO"
+
+IDI_ICON67              ICON                    "res\\Yakko 1.ICO"
+
+IDI_ICON68              ICON                    "res\\Dot 2.ICO"
+
+IDI_ICON69              ICON                    "res\\Felix.ICO"
+
+IDI_ICON70              ICON                    "res\\Garfield 2.ICO"
+
+IDI_ICON71              ICON                    "res\\Hagar the Horrible.ICO"
+
+IDI_ICON72              ICON                    "res\\hellokitty.ICO"
+
+IDI_ICON73              ICON                    "res\\Hobbes.ICO"
+
+IDI_ICON74              ICON                    "res\\Jon.ICO"
+
+IDI_ICON75              ICON                    "res\\Odie.ICO"
+
+IDI_ICON76              ICON                    "res\\Pink Panther.ICO"
+
+IDI_ICON77              ICON                    "res\\Scooby.ICO"
+
+IDI_ICON78              ICON                    "res\\Shaggy.ICO"
+
+IDI_ICON79              ICON                    "res\\Batman1.ico"
+
+IDI_ICON80              ICON                    "res\\Daffy Duck.ICO"
+
+IDI_ICON81              ICON                    "res\\Babs Bunny.ico"
+
+IDI_ICON82              ICON                    "res\\Bird's Any.ico"
+
+IDI_ICON83              ICON                    "res\\Boo Boo.ICO"
+
+IDI_ICON84              ICON                    "res\\Brain.ico"
+
+IDI_ICON85              ICON                    "res\\Butch.ico"
+
+IDI_ICON86              ICON                    "res\\Cool Sly.ico"
+
+IDI_ICON87              ICON                    "res\\Cyote.ico"
+
+IDI_ICON88              ICON                    "res\\Arab Sam.ico"
+
+IDI_ICON89              ICON                    "res\\Jerry.ICO"
+
+IDI_ICON90              ICON                    "res\\Duck Dodgers.ico"
+
+IDI_ICON91              ICON                    "res\\Elmer Fudd.ico"
+
+IDI_ICON92              ICON                    "res\\Elmyra.ico"
+
+IDI_ICON93              ICON                    "res\\Fifi.ico"
+
+IDI_ICON94              ICON                    "res\\Foghorn.ICO"
+
+IDI_ICON95              ICON                    "res\\Hampton.ICO"
+
+IDI_ICON96              ICON                    "res\\Huckleberry.ICO"
+
+IDI_ICON97              ICON                    "res\\Drowned Cat.ico"
+
+IDI_ICON98              ICON                    "res\\Shoe Elf.ico"
+
+IDI_ICON99              ICON                    "res\\Marvin.ICO"
+
+IDI_ICON100             ICON                    "res\\Pepe le Pu.ICO"
+
+IDI_ICON101             ICON                    "res\\Pinky.ICO"
+
+IDI_ICON102             ICON                    "res\\Plucky Duck.ico"
+
+IDI_ICON103             ICON                    "res\\Private Buggs.ICO"
+
+IDI_ICON104             ICON                    "res\\RoadRunner.ICO"
+
+IDI_ICON105             ICON                    "res\\Sam.ico"
+
+IDI_ICON106             ICON                    "res\\Junior.ico"
+
+IDI_ICON107             ICON                    "res\\Yogi.ICO"
+
+IDI_ICON108             ICON                    "res\\Speedy G.ico"
+
+IDI_ICON109             ICON                    "res\\Stimpy.ICO"
+
+IDI_ICON110             ICON                    "res\\Sylvester.ICO"
+
+IDI_ICON111             ICON                    "res\\Tom.ICO"
+
+IDI_ICON112             ICON                    "res\\Tweety.ICO"
+
+IDI_ICON113             ICON                    "res\\Wile.ICO"
+
+IDI_ICON114             ICON                    "res\\Woody.ICO"
+
+IDI_ICON115             ICON                    "res\\Space Foreman.ico"
+
+IDI_ICON116             ICON                    "res\\RX-78GP-03S.ico"
+
+IDI_ICON117             ICON                    "res\\MS-06S.ico"
+
+IDI_ICON118             ICON                    "res\\MS-14F.ico"
+
+IDI_ICON119             ICON                    "res\\MS-14FS.ico"
+
+IDI_ICON120             ICON                    "res\\MS-21C.ico"
+
+IDI_ICON121             ICON                    "res\\RGM-79C.ico"
+
+IDI_ICON122             ICON                    "res\\RX-78-2.ico"
+
+IDI_ICON123             ICON                    "res\\RX-78GP-01.ico"
+
+IDI_ICON124             ICON                    "res\\RX-78GP-02A.ico"
+
+IDI_ICON125             ICON                    "res\\MS-06F.ico"
+
+IDI_ICON126             ICON                    "res\\Wilma.ICO"
+
+IDI_ICON127             ICON                    "res\\Dino.ICO"
+
+IDI_ICON128             ICON                    "res\\Fred.ICO"
+
+IDI_ICON129             ICON                    "res\\Pebbles.ICO"
+
+IDI_ICON130             ICON                    "res\\Barney.ICO"
+
+IDI_ICON131             ICON                    "res\\Jimmy.ico"
+
+IDI_ICON132             ICON                    "res\\Goofy 1.ICO"
+
+IDI_ICON133             ICON                    "res\\Donald 1.ICO"
+
+IDI_ICON134             ICON                    "res\\Corporal Punishment.ico"
+
+IDI_ICON135             ICON                    "res\\Bart Picasso.ico"
+
+IDI_ICON136             ICON                    "res\\Bart Polo.ico"
+
+IDI_ICON137             ICON                    "res\\Bart the Mime.ICO"
+
+IDI_ICON138             ICON                    "res\\Bart The Raven.ICO"
+
+IDI_ICON139             ICON                    "res\\Bartina.ico"
+
+IDI_ICON140             ICON                    "res\\Bartman.ico"
+
+IDI_ICON141             ICON                    "res\\Black Bart.ico"
+
+IDI_ICON142             ICON                    "res\\Baby Bart.ico"
+
+IDI_ICON143             ICON                    "res\\Lisa.ICO"
+
+IDI_ICON144             ICON                    "res\\Dacin' Homer.ICO"
+
+IDI_ICON145             ICON                    "res\\Doogie Bart.ico"
+
+IDI_ICON146             ICON                    "res\\Fallout Boy.ico"
+
+IDI_ICON147             ICON                    "res\\Geek.ico"
+
+IDI_ICON148             ICON                    "res\\Happy Bart.ICO"
+
+IDI_ICON149             ICON                    "res\\Judge Bart.ICO"
+
+IDI_ICON150             ICON                    "res\\Junior Camper Bart.ico"
+
+IDI_ICON151             ICON                    "res\\Count Bartula.ICO"
+
+IDI_ICON152             ICON                    "res\\Winterized Bart.ico"
+
+IDI_ICON153             ICON                    "res\\Michael Jackson Bart.ico"
+
+IDI_ICON154             ICON                    "res\\Ninja Bart.ico"
+
+IDI_ICON155             ICON                    "res\\Psychiatrist Bart.ico"
+
+IDI_ICON156             ICON                    "res\\Radioactive Man.ico"
+
+IDI_ICON157             ICON                    "res\\Sideshow Rahim.ico"
+
+IDI_ICON158             ICON                    "res\\Terminator Bart.ico"
+
+IDI_ICON159             ICON                    "res\\The Malcontent.ico"
+
+IDI_ICON160             ICON                    "res\\The Snitch.ico"
+
+IDI_ICON161             ICON                    "res\\McBain.ico"
+
+IDI_ICON162             ICON                    "res\\Cyberdog.ico"
+
+IDI_ICON163             ICON                    "res\\Argo.ico"
+
+IDI_ICON164             ICON                    "res\\Arthur.ico"
+
+IDI_ICON165             ICON                    "res\\Bettle.ico"
+
+IDI_ICON166             ICON                    "res\\Bill The Cat1.ico"
+
+IDI_ICON167             ICON                    "res\\Binkley.ico"
+
+IDI_ICON168             ICON                    "res\\Bullwinkle.ICO"
+
+IDI_ICON169             ICON                    "res\\Calvin.ICO"
+
+IDI_ICON170             ICON                    "res\\CB Dirty Snowman.ico"
+
+IDI_ICON171             ICON                    "res\\Chicken.ico"
+
+IDI_ICON172             ICON                    "res\\Concord.ico"
+
+IDI_ICON173             ICON                    "res\\Aesop's Son.ICO"
+
+IDI_ICON174             ICON                    "res\\Evil Calvin.ico"
+
+IDI_ICON175             ICON                    "res\\Dilbert.ICO"
+
+IDI_ICON176             ICON                    "res\\DM Colonel K.ico"
+
+IDI_ICON177             ICON                    "res\\DM Crumbs.ico"
+
+IDI_ICON178             ICON                    "res\\DM Custard.ico"
+
+IDI_ICON179             ICON                    "res\\DM Danger Mouse.ico"
+
+IDI_ICON180             ICON                    "res\\DM Nero.ico"
+
+IDI_ICON181             ICON                    "res\\DM Penfold.ico"
+
+IDI_ICON182             ICON                    "res\\Dr. Scratchy.ico"
+
+IDI_ICON183             ICON                    "res\\Dragon.ico"
+
+IDI_ICON184             ICON                    "res\\Dilbert Boss.ICO"
+
+IDI_ICON185             ICON                    "res\\Hodgepodge.ico"
+
+IDI_ICON186             ICON                    "res\\FS Eugene.ICO"
+
+IDI_ICON187             ICON                    "res\\FS2 Clown.ICO"
+
+IDI_ICON188             ICON                    "res\\FS2 Cow.ICO"
+
+IDI_ICON189             ICON                    "res\\FS2 God.ICO"
+
+IDI_ICON190             ICON                    "res\\FS2 Goofy Pooch.ICO"
+
+IDI_ICON191             ICON                    "res\\FS2 Penguin2.ICO"
+
+IDI_ICON192             ICON                    "res\\FS2 Snake.ICO"
+
+IDI_ICON193             ICON                    "res\\General.ico"
+
+IDI_ICON194             ICON                    "res\\Gidney.ico"
+
+IDI_ICON195             ICON                    "res\\Gromit2.ICO"
+
+IDI_ICON196             ICON                    "res\\Happy Little Elf.ico"
+
+IDI_ICON197             ICON                    "res\\FS Duck.ICO"
+
+IDI_ICON198             ICON                    "res\\Roger.ICO"
+
+IDI_ICON199             ICON                    "res\\Mr Peabody.ICO"
+
+IDI_ICON200             ICON                    "res\\Mr. Skullhead.ico"
+
+IDI_ICON201             ICON                    "res\\Oliver.ico"
+
+IDI_ICON202             ICON                    "res\\Opus II.ICO"
+
+IDI_ICON203             ICON                    "res\\Paige.ICO"
+
+IDI_ICON204             ICON                    "res\\Parasite.ico"
+
+IDI_ICON205             ICON                    "res\\Portnoy.ico"
+
+IDI_ICON206             ICON                    "res\\Preston.ico"
+
+IDI_ICON207             ICON                    "res\\Rocko 2.ICO"
+
+IDI_ICON208             ICON                    "res\\Milo.ico"
+
+IDI_ICON209             ICON                    "res\\SHR Wow.ico"
+
+IDI_ICON210             ICON                    "res\\Schnauzi.ico"
+
+IDI_ICON211             ICON                    "res\\Sgt Snorkle.ico"
+
+IDI_ICON212             ICON                    "res\\Sheep.ico"
+
+IDI_ICON213             ICON                    "res\\Sherman.ICO"
+
+IDI_ICON214             ICON                    "res\\SHR Bone Head.ico"
+
+IDI_ICON215             ICON                    "res\\SHR Darn.ico"
+
+IDI_ICON216             ICON                    "res\\SHR Dem Bones.ico"
+
+IDI_ICON217             ICON                    "res\\SHR Four Times One.ico"
+
+IDI_ICON218             ICON                    "res\\SHR Snowman.ico"
+
+IDI_ICON219             ICON                    "res\\SHR Three Girl.ico"
+
+IDI_ICON220             ICON                    "res\\SHR unpack.ico"
+
+IDI_ICON221             ICON                    "res\\Santa's Little Helper.ICO"
+
+IDI_ICON222             ICON                    "res\\Ziggy.ICO"
+
+IDI_ICON223             ICON                    "res\\Stinkbomb.ico"
+
+IDI_ICON224             ICON                    "res\\Stork.ico"
+
+IDI_ICON225             ICON                    "res\\The Count.ICO"
+
+IDI_ICON226             ICON                    "res\\Wallace.ico"
+
+IDI_ICON227             ICON                    "res\\Wendolene.ico"
+
+IDI_ICON228             ICON                    "res\\Zero.ico"
+
+IDI_ICON229             ICON                    "res\\Steve.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Bitmap
 //
 
-IDB_BIGLOGO             BITMAP  DISCARDABLE     "res\\svblogo.bmp"
-IDB_SVLOGO              BITMAP  DISCARDABLE     "res\\logo.bmp"
-IDB_BACKCARD            BITMAP  DISCARDABLE     "res\\backcard.bmp"
-IDB_PLAYERDETAIL        BITMAP  DISCARDABLE     "res\\pd_wood.bmp"
-IDB_CARD                BITMAP  DISCARDABLE     "res\\16_card01.bmp"
+IDB_BIGLOGO             BITMAP                  "res\\svblogo.bmp"
+
+IDB_SVLOGO              BITMAP                  "res\\logo.bmp"
+
+IDB_BACKCARD            BITMAP                  "res\\backcard.bmp"
+
+IDB_PLAYERDETAIL        BITMAP                  "res\\pd_wood.bmp"
+
+IDB_CARD                BITMAP                  "res\\16_card01.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Cursor
 //
 
-IDC_POINT               CURSOR  DISCARDABLE     "res\\curpoint.cur"
-IDC_GRASP               CURSOR  DISCARDABLE     "res\\curgrasp.cur"
-IDC_CLICK               CURSOR  DISCARDABLE     "res\\curclick.cur"
+IDC_POINT               CURSOR                  "res\\curpoint.cur"
+
+IDC_GRASP               CURSOR                  "res\\curgrasp.cur"
+
+IDC_CLICK               CURSOR                  "res\\curclick.cur"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -375,35 +675,28 @@ IDC_CLICK               CURSOR  DISCARDABLE     "res\\curclick.cur"
 //
 
 IDD_ABOUT DIALOGEX 0, 0, 201, 166
-STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "About"
-FONT 8, "MS Sans Serif"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "Ok",IDOK,60,148,82,15,BS_CENTER | BS_VCENTER
-    CTEXT           "Slave",IDC_STATIC,62,10,121,10
-    CTEXT           "E-Mail",IDC_STATIC,18,124,33,10
-    CTEXT           "by Kasamsun ( Nohm , Tom :o)",IDC_STATIC,62,23,121,9
-    RTEXT           "Version :",IDC_STATIC,103,36,32,9
-    CTEXT           "For more information, please read on my homepage",
-                    IDC_STATIC,16,137,169,10
-    EDITTEXT        IDC_MY_EMAIL,55,122,139,12,ES_CENTER | ES_MULTILINE | 
-                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
-                    WS_EX_TRANSPARENT | WS_EX_RIGHT
-    PUSHBUTTON      "http://i.am/kasamsun",IDC_MY_HOMEPAGE,7,104,186,15,
-                    BS_CENTER | BS_VCENTER | NOT WS_TABSTOP
-    ICON            IDI_SLAVE,IDC_STATIC,23,24,20,20
-    CTEXT           "Another one of my favorite card games. ",IDC_STATIC,29,
-                    69,142,9
-    CTEXT           "This game is dedicated to every Slave.",IDC_STATIC,20,
-                    80,161,9
-    LTEXT           "Feel free to contact me na ja~. :o)",IDC_STATIC,37,91,
-                    131,9
+    CTEXT           "Slave",-1,62,10,121,10
+    CTEXT           "E-Mail",-1,18,124,33,10
+    CTEXT           "by Kasamsun ( Nohm , Tom :o)",-1,62,23,121,9
+    RTEXT           "Version :",-1,103,36,32,9
+    CTEXT           "For more information, please read on my homepage",-1,16,137,169,10
+    EDITTEXT        IDC_MY_EMAIL,55,122,139,12,ES_CENTER | ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT | WS_EX_RIGHT
+    PUSHBUTTON      "http://i.am/kasamsun",IDC_MY_HOMEPAGE,7,104,186,15,BS_CENTER | BS_VCENTER | NOT WS_TABSTOP
+    ICON            IDI_SLAVE,-1,23,24,20,20
+    CTEXT           "Another one of my favorite card games. ",-1,29,69,142,9
+    CTEXT           "This game is dedicated to every Slave.",-1,20,80,161,9
+    LTEXT           "Feel free to contact me na ja~. :o)",-1,37,91,131,9
     LTEXT           "_ID_",IDC_MSGID,165,48,24,11
     LTEXT           "yyyy/mm/dd",IDC_BUILDDATE,89,48,41,11
-    LTEXT           "MsgID:",IDC_STATIC,135,48,25,11
-    LTEXT           "Build:",IDC_STATIC,65,48,20,11
+    LTEXT           "MsgID:",-1,135,48,25,11
+    LTEXT           "Build:",-1,65,48,20,11
     LTEXT           "_VER_",IDC_VERSION,140,36,24,11
-    GROUPBOX        "",IDC_STATIC,3,1,194,64
+    GROUPBOX        "",-1,3,1,194,64
 END
 
 
@@ -412,183 +705,164 @@ END
 // WAVE
 //
 
-IDR_SND_SHUFFLE         WAVE    DISCARDABLE     "res\\shuffle.wav"
-IDR_SND_MYTURN          WAVE    DISCARDABLE     "res\\ohho.wav"
-IDR_SND_DISCARD2        WAVE    DISCARDABLE     "res\\discard2.wav"
-IDR_SND_DISCARD1        WAVE    DISCARDABLE     "res\\discard1.wav"
-IDR_SND_CLAPPING        WAVE    DISCARDABLE     "res\\Clapping.wav"
-IDR_SND_BOING           WAVE    DISCARDABLE     "res\\boing.wav"
-IDR_SND_SWOOZ           WAVE    DISCARDABLE     "res\\Swooz.wav"
-#endif    // Unknown language: 0x1E, 0x1 resources
+IDR_SND_SHUFFLE         WAVE                    "res\\shuffle.wav"
+
+IDR_SND_MYTURN          WAVE                    "res\\ohho.wav"
+
+IDR_SND_DISCARD2        WAVE                    "res\\discard2.wav"
+
+IDR_SND_DISCARD1        WAVE                    "res\\discard1.wav"
+
+IDR_SND_CLAPPING        WAVE                    "res\\Clapping.wav"
+
+IDR_SND_BOING           WAVE                    "res\\boing.wav"
+
+IDR_SND_SWOOZ           WAVE                    "res\\Swooz.wav"
+
+#endif    // Thai (Thailand) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Dialog
 //
 
-IDD_HELP DIALOG DISCARDABLE  0, 0, 340, 202
-STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+IDD_HELP DIALOG 0, 0, 340, 202
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "Help"
 FONT 8, "MS Sans Serif"
 BEGIN
-    PUSHBUTTON      "Ok",IDOK,8,84,79,20,BS_CENTER | BS_VCENTER | 
-                    WS_CLIPSIBLINGS
-    LTEXT           "For someone who don't know how to play, please see on my homepage.",
-                    IDC_STATIC,7,29,85,28
-    LTEXT           "King",IDC_STATIC,250,122,19,9
-    LTEXT           "Vice Slave",IDC_STATIC,248,175,39,10
-    LTEXT           "Slave",IDC_STATIC,312,175,22,11
-    ICON            IDI_ISKING,IDC_STATIC,224,117,20,20
-    ICON            IDI_ISSLAVE,IDC_STATIC,289,170,20,20
-    GROUPBOX        "",IDC_STATIC,219,108,118,92
-    ICON            IDI_ISPEOPLE,IDC_STATIC,255,141,20,20
-    ICON            IDI_ISVSLAVE,IDC_STATIC,224,172,20,20
-    ICON            IDI_SVONLINE,IDC_STATIC,22,115,20,20
-    ICON            IDI_SVOFFLINE,IDC_STATIC,121,115,20,20
-    LTEXT           "->Online",IDC_STATIC,47,120,37,10
-    LTEXT           "->Offline",IDC_STATIC,146,120,42,11
-    ICON            IDI_START,IDC_STATIC,4,137,20,20
-    LTEXT           "To start as dealer. Everybody can join after this. Only dealer can set the game",
-                    IDC_STATIC,28,136,106,25
-    ICON            IDI_JOIN,IDC_STATIC,4,158,20,20
-    LTEXT           "To join with any dealer player. Just enter dealer's IP Address",
-                    IDC_STATIC,27,161,104,18
-    ICON            IDI_QUIT,IDC_STATIC,4,179,20,20
-    LTEXT           "Quit current game",IDC_STATIC,28,185,73,9
-    ICON            IDI_SETTING,IDC_STATIC,137,137,20,20
-    LTEXT           "Change setting",IDC_STATIC,161,143,51,9
-    ICON            IDI_EXIT,IDC_STATIC,137,179,20,20
-    LTEXT           "Exit program",IDC_STATIC,161,185,49,9
-    ICON            IDI_HELP,IDC_STATIC,137,158,20,20
-    ICON            IDI_ABOUT,IDC_STATIC,0,61,20,20
-    LTEXT           "Help screen",IDC_STATIC,161,164,50,9
-    LTEXT           "People",IDC_STATIC,279,147,27,9
-    GROUPBOX        "",IDC_STATIC,2,108,213,92
-    GROUPBOX        "My Slave's Rule",IDC_STATIC,98,0,238,109
-    LTEXT           "Click here to see my homepage/my email",IDC_STATIC,26,
-                    60,69,20
-    ICON            IDI_SLAVE,IDC_STATIC,38,6,20,20
-    LTEXT           "@3-6 Players supported",IDC_STATIC,108,12,103,10
-    LTEXT           "@If no King, who has 3-club 'll be first",IDC_STATIC,
-                    108,24,120,10
-    LTEXT           "@If anyone pass, he 'll has no right to discard until this round is over",
-                    IDC_STATIC,108,49,119,18
-    LTEXT           "@If King can't win, he'll be Slave immediately",
-                    IDC_STATIC,108,69,114,18
-    LTEXT           "@If anyone who 's Queen for 3 times can't win, she'll be Slave too",
-                    IDC_STATIC,108,88,114,18
-    LTEXT           "@3 Cards (Tong) can win any single card",IDC_STATIC,238,
-                    12,86,19
-    LTEXT           "@4 Cards (Four) can win every card, (single,pair,tripple) ",
-                    IDC_STATIC,238,33,88,26
-    LTEXT           "@When player put last card and nobody can't play that, discard direction 'll be reverse",
-                    IDC_STATIC,238,67,88,34
-    LTEXT           "@Slave start first",IDC_STATIC,108,37,97,10
-    ICON            IDI_ISQUEEN,IDC_STATIC,284,117,20,20
-    LTEXT           "Queen",IDC_STATIC,308,122,24,9
+    PUSHBUTTON      "Ok",IDOK,8,84,79,20,BS_CENTER | BS_VCENTER | WS_CLIPSIBLINGS
+    LTEXT           "For someone who don't know how to play, please see on my homepage.",-1,7,29,85,28
+    LTEXT           "King",-1,250,122,19,9
+    LTEXT           "Vice Slave",-1,248,175,39,10
+    LTEXT           "Slave",-1,312,175,22,11
+    ICON            IDI_ISKING,-1,224,117,20,20
+    ICON            IDI_ISSLAVE,-1,289,170,20,20
+    GROUPBOX        "",-1,219,108,118,92
+    ICON            IDI_ISPEOPLE,-1,255,141,20,20
+    ICON            IDI_ISVSLAVE,-1,224,172,20,20
+    ICON            IDI_SVONLINE,-1,22,115,20,20
+    ICON            IDI_SVOFFLINE,-1,121,115,20,20
+    LTEXT           "->Online",-1,47,120,37,10
+    LTEXT           "->Offline",-1,146,120,42,11
+    ICON            IDI_START,-1,4,137,20,20
+    LTEXT           "To start as dealer. Everybody can join after this. Only dealer can set the game",-1,28,136,106,25
+    ICON            IDI_JOIN,-1,4,158,20,20
+    LTEXT           "To join with any dealer player. Just enter dealer's IP Address",-1,27,161,104,18
+    ICON            IDI_QUIT,-1,4,179,20,20
+    LTEXT           "Quit current game",-1,28,185,73,9
+    ICON            IDI_SETTING,-1,137,137,20,20
+    LTEXT           "Change setting",-1,161,143,51,9
+    ICON            IDI_EXIT,-1,137,179,20,20
+    LTEXT           "Exit program",-1,161,185,49,9
+    ICON            IDI_HELP,-1,137,158,20,20
+    ICON            IDI_ABOUT,-1,0,61,20,20
+    LTEXT           "Help screen",-1,161,164,50,9
+    LTEXT           "People",-1,279,147,27,9
+    GROUPBOX        "",-1,2,108,213,92
+    GROUPBOX        "My Slave's Rule",-1,98,0,238,109
+    LTEXT           "Click here to see my homepage/my email",-1,26,60,69,20
+    ICON            IDI_SLAVE,-1,38,6,20,20
+    LTEXT           "@3-6 Players supported",-1,108,12,103,10
+    LTEXT           "@If no King, who has 3-club 'll be first",-1,108,24,120,10
+    LTEXT           "@If anyone pass, he 'll has no right to discard until this round is over",-1,108,49,119,18
+    LTEXT           "@If King can't win, he'll be Slave immediately",-1,108,69,114,18
+    LTEXT           "@If anyone who 's Queen for 3 times can't win, she'll be Slave too",-1,108,88,114,18
+    LTEXT           "@3 Cards (Tong) can win any single card",-1,238,12,86,19
+    LTEXT           "@4 Cards (Four) can win every card, (single,pair,tripple) ",-1,238,33,88,26
+    LTEXT           "@When player put last card and nobody can't play that, discard direction 'll be reverse",-1,238,67,88,34
+    LTEXT           "@Slave start first",-1,108,37,97,10
+    ICON            IDI_ISQUEEN,-1,284,117,20,20
+    LTEXT           "Queen",-1,308,122,24,9
 END
 
-IDD_JOIN DIALOG DISCARDABLE  0, 0, 186, 65
-STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+IDD_JOIN DIALOG 0, 0, 186, 65
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "Join Slave Dealer"
 FONT 8, "MS Sans Serif"
 BEGIN
     PUSHBUTTON      "OK",IDOK,41,48,50,14,NOT WS_TABSTOP
     PUSHBUTTON      "Cancel",IDCANCEL,93,48,50,14,NOT WS_TABSTOP
     EDITTEXT        IDC_JOINIP,70,18,109,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
-    ICON            IDI_SLAVE,IDC_STATIC,5,4,20,20
-    LTEXT           "Enter Slave Dealer 's IP Address",IDC_STATIC,31,5,135,
-                    11
-    LTEXT           "** For example, 203.149.2.51",IDC_STATIC,63,34,98,9
-    ICON            IDI_ARROWB,IDC_STATIC,47,15,20,20
+    ICON            IDI_SLAVE,-1,5,4,20,20
+    LTEXT           "Enter Slave Dealer 's IP Address",-1,31,5,135,11
+    LTEXT           "** For example, 203.149.2.51",-1,63,34,98,9
+    ICON            IDI_ARROWB,-1,47,15,20,20
 END
 
-IDD_GAMERESULT DIALOG DISCARDABLE  0, 0, 181, 192
-STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+IDD_GAMERESULT DIALOG 0, 0, 181, 192
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "Game Result"
 FONT 8, "MS Sans Serif"
 BEGIN
     PUSHBUTTON      "Continue",IDOK,106,165,71,25
-    ICON            IDI_ARROWB,IDC_STATIC,129,32,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,129,59,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,129,86,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,129,5,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,129,113,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,129,140,21,20
+    ICON            IDI_ARROWB,-1,129,32,21,20
+    ICON            IDI_ARROWB,-1,129,59,21,20
+    ICON            IDI_ARROWB,-1,129,86,21,20
+    ICON            IDI_ARROWB,-1,129,5,21,20
+    ICON            IDI_ARROWB,-1,129,113,21,20
+    ICON            IDI_ARROWB,-1,129,140,21,20
     LTEXT           "-",IDC_POS1NAME,53,7,75,22
     LTEXT           "-",IDC_POS2NAME,53,33,75,22
     LTEXT           "-",IDC_POS3NAME,53,61,75,22
     LTEXT           "-",IDC_POS4NAME,53,87,75,22
     LTEXT           "-",IDC_POS5NAME,53,114,75,22
     LTEXT           "-",IDC_POS6NAME,53,141,75,22
-    ICON            IDI_POS2,IDC_STATIC,3,33,21,20
-    ICON            IDI_POS3,IDC_STATIC,3,60,21,20
-    ICON            IDI_POS4,IDC_STATIC,3,87,21,20
-    ICON            IDI_POS1,IDC_STATIC,3,6,21,20
-    ICON            IDI_POS5,IDC_STATIC,3,114,21,20
-    ICON            IDI_POS6,IDC_STATIC,3,141,21,20
+    ICON            IDI_POS2,-1,3,33,21,20
+    ICON            IDI_POS3,-1,3,60,21,20
+    ICON            IDI_POS4,-1,3,87,21,20
+    ICON            IDI_POS1,-1,3,6,21,20
+    ICON            IDI_POS5,-1,3,114,21,20
+    ICON            IDI_POS6,-1,3,141,21,20
 END
 
-IDD_SETTING DIALOG DISCARDABLE  0, 0, 309, 240
-STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+IDD_SETTING DIALOGEX 0, 0, 309, 240
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "Setting"
-FONT 8, "MS Sans Serif"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     PUSHBUTTON      "OK",IDOK,64,224,89,14,NOT WS_TABSTOP
     PUSHBUTTON      "Cancel",IDCANCEL,155,224,89,14,NOT WS_TABSTOP
-    ICON            IDI_ISSLAVE,IDC_STATIC,110,49,21,20
-    ICON            IDI_ISKING,IDC_STATIC,66,49,21,20
+    ICON            IDI_ISSLAVE,-1,110,49,20,20
+    ICON            IDI_ISKING,-1,66,49,20,20
     PUSHBUTTON      "Reset",IDC_RESETSCORE,152,52,28,15,NOT WS_TABSTOP
-    PUSHBUTTON      "Select Face",IDC_SELECTFACE,64,20,22,19,BS_ICON | NOT 
-                    WS_TABSTOP
+    PUSHBUTTON      "Select Face",IDC_SELECTFACE,64,20,22,19,BS_ICON | NOT WS_TABSTOP
     LTEXT           "999",IDC_NOOFSLAVE,135,52,13,8
     LTEXT           "999",IDC_NOOFKING,92,52,15,8
     EDITTEXT        IDC_NAME,121,21,54,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
-    LTEXT           "Name",IDC_STATIC,93,23,25,9
+    LTEXT           "Name",-1,93,23,25,9
     PUSHBUTTON      "1",IDC_SLOT1,32,26,20,11,NOT WS_TABSTOP
     PUSHBUTTON      "2",IDC_SLOT2,32,37,20,11,NOT WS_TABSTOP
     PUSHBUTTON      "3",IDC_SLOT3,32,48,20,11,NOT WS_TABSTOP
     PUSHBUTTON      "4",IDC_SLOT4,32,59,20,11,NOT WS_TABSTOP
     PUSHBUTTON      "5",IDC_SLOT5,32,70,20,11,NOT WS_TABSTOP
-    ICON            IDI_ARROWB,IDC_ARROWB,9,26,21,20
-    LTEXT           "Save Slot#",IDC_STATIC,9,15,36,8
-    EDITTEXT        IDC_OPPONENT1,221,107,52,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    EDITTEXT        IDC_OPPONENT2,221,121,52,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    EDITTEXT        IDC_OPPONENT3,221,135,52,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    EDITTEXT        IDC_OPPONENT4,221,149,52,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    EDITTEXT        IDC_BKGFILE,56,130,118,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    LTEXT           "Background",IDC_STATIC,9,131,45,10
-    EDITTEXT        IDC_CARDFILE,56,143,118,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    LTEXT           "Card",IDC_STATIC,9,144,45,10,WS_TABSTOP
-    EDITTEXT        IDC_DLGFILE,56,156,118,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    LTEXT           "Dialog",IDC_STATIC,9,157,45,10
+    ICON            IDI_ARROWB,IDC_ARROWB,9,26,20,20
+    LTEXT           "Save Slot#",-1,9,15,36,8
+    EDITTEXT        IDC_OPPONENT1,221,107,52,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT2,221,121,52,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT3,221,135,52,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT4,221,149,52,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    EDITTEXT        IDC_BKGFILE,56,130,118,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Background",-1,9,131,45,10
+    EDITTEXT        IDC_CARDFILE,56,143,118,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Card",-1,9,144,45,10,WS_TABSTOP
+    EDITTEXT        IDC_DLGFILE,56,156,118,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Dialog",-1,9,157,45,10
     EDITTEXT        IDC_PDFILE,56,169,118,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
-    LTEXT           "Player Label",IDC_STATIC,9,170,45,10
-    CONTROL         "Use cool control",IDC_USECOOLCTL,"Button",
-                    BS_AUTOCHECKBOX,14,101,67,11
-    CONTROL         "Use fade background",IDC_USEFADEBKG,"Button",
-                    BS_AUTOCHECKBOX,93,101,88,11
-    CONTROL         "Use custom background",IDC_USECUSTOMBKG,"Button",
-                    BS_AUTOCHECKBOX,14,114,96,11
-    GROUPBOX        "My Player",IDC_STATIC,4,3,183,84
+    LTEXT           "Player Label",-1,9,170,45,10
+    CONTROL         "Use cool control",IDC_USECOOLCTL,"Button",BS_AUTOCHECKBOX,14,101,67,11
+    CONTROL         "Use fade background",IDC_USEFADEBKG,"Button",BS_AUTOCHECKBOX,93,101,88,11
+    CONTROL         "Use custom background",IDC_USECUSTOMBKG,"Button",BS_AUTOCHECKBOX,14,114,96,11
+    GROUPBOX        "My Player",-1,4,3,183,84
     PUSHBUTTON      "->",IDC_SELECTBKG,174,130,10,12,NOT WS_TABSTOP
     PUSHBUTTON      "->",IDC_SELECTCARD,174,143,10,12,NOT WS_TABSTOP
     PUSHBUTTON      "->",IDC_SELECTDLG,174,156,10,12,NOT WS_TABSTOP
@@ -596,36 +870,29 @@ BEGIN
     PUSHBUTTON      "Fast",IDC_AIFAST,62,188,25,13,NOT WS_TABSTOP
     PUSHBUTTON      "Normal",IDC_AINORMAL,110,188,25,13,NOT WS_TABSTOP
     PUSHBUTTON      "Slow",IDC_AISLOW,158,188,25,13,NOT WS_TABSTOP
-    ICON            IDI_ARROWB,IDC_ARROWB2,37,184,21,20
-    CTEXT           "AI Delay",IDC_STATIC,10,185,22,17
-    ICON            IDI_HEADCOM4,IDC_STATIC,276,143,21,20
-    ICON            IDI_HEADCOM1,IDC_STATIC,197,101,21,20
-    ICON            IDI_HEADCOM2,IDC_STATIC,276,115,21,20
-    ICON            IDI_HEADCOM3,IDC_STATIC,197,129,21,20
-    EDITTEXT        IDC_DEFCHATMSG,199,13,98,68,ES_MULTILINE | 
-                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
-                    WS_VSCROLL | NOT WS_TABSTOP
+    ICON            IDI_ARROWB,IDC_ARROWB2,37,184,20,20
+    CTEXT           "AI Delay",-1,10,185,22,17
+    ICON            IDI_HEADCOM4,-1,276,143,20,20
+    ICON            IDI_HEADCOM1,-1,197,101,20,20
+    ICON            IDI_HEADCOM2,-1,276,115,20,20
+    ICON            IDI_HEADCOM3,-1,197,129,20,20
+    EDITTEXT        IDC_DEFCHATMSG,199,13,98,68,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | NOT WS_TABSTOP
     LTEXT           "999",IDC_NOOFGAMEPLAY2,92,60,13,10
     LTEXT           "999",IDC_NOOFGAMEPLAY,135,60,13,10
-    GROUPBOX        "Default Chat Message",IDC_STATIC,192,3,112,84
-    PUSHBUTTON      "Reset computer's score",IDC_RESETCOMPSCORE,202,198,93,
-                    14
-    GROUPBOX        "Opponent Name",IDC_STATIC,192,89,112,132
-    EDITTEXT        IDC_OPPONENT5,221,163,52,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    EDITTEXT        IDC_OPPONENT6,221,177,52,12,ES_AUTOHSCROLL | NOT 
-                    WS_TABSTOP
-    ICON            IDI_HEADCOM5,IDC_STATIC,197,159,21,20
-    ICON            IDI_HEADCOM6,IDC_STATIC,276,173,21,20
-    CONTROL         "Sound Effect",IDC_USESOUND,"Button",BS_AUTOCHECKBOX,26,
-                    207,67,11
-    CONTROL         "Alarm when discard",IDC_ALARMTURN,"Button",
-                    BS_AUTOCHECKBOX,102,207,76,11
-    GROUPBOX        "Environment",IDC_STATIC,3,89,184,132
+    GROUPBOX        "Default Chat Message",-1,192,3,112,84
+    PUSHBUTTON      "Reset computer's score",IDC_RESETCOMPSCORE,202,198,93,14
+    GROUPBOX        "Opponent Name",-1,192,89,112,132
+    EDITTEXT        IDC_OPPONENT5,221,163,52,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT6,221,177,52,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    ICON            IDI_HEADCOM5,-1,197,159,20,20
+    ICON            IDI_HEADCOM6,-1,276,173,20,20
+    CONTROL         "Sound Effect",IDC_USESOUND,"Button",BS_AUTOCHECKBOX,26,207,67,11
+    CONTROL         "Alarm when discard",IDC_ALARMTURN,"Button",BS_AUTOCHECKBOX,102,207,76,11
+    GROUPBOX        "Environment",-1,3,89,184,132
 END
 
 IDD_FACESELECT DIALOGEX 0, 0, 96, 114
-STYLE DS_MODALFRAME | WS_POPUP
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
 EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_LEFTSCROLLBAR
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
@@ -640,82 +907,88 @@ BEGIN
     PUSHBUTTON      "Button1",IDC_HEAD7,48,20,24,20,BS_ICON | NOT WS_TABSTOP
     PUSHBUTTON      "Button1",IDC_HEAD8,72,20,24,20,BS_ICON | NOT WS_TABSTOP
     PUSHBUTTON      "Button1",IDC_HEAD9,0,40,24,20,BS_ICON | NOT WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD10,24,40,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD11,48,40,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD12,72,40,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD10,24,40,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD11,48,40,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD12,72,40,24,20,BS_ICON | NOT WS_TABSTOP
     PUSHBUTTON      "Button1",IDC_HEAD13,0,60,24,20,BS_ICON | NOT WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD14,24,60,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD15,48,60,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD16,72,60,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD14,24,60,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD15,48,60,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD16,72,60,24,20,BS_ICON | NOT WS_TABSTOP
     PUSHBUTTON      "Button1",IDC_HEAD17,0,80,24,20,BS_ICON | NOT WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD18,24,80,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD19,48,80,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
-    PUSHBUTTON      "Button1",IDC_HEAD20,72,80,24,20,BS_ICON | NOT 
-                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD18,24,80,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD19,48,80,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD20,72,80,24,20,BS_ICON | NOT WS_TABSTOP
 END
 
 IDD_BMPPREVIEW DIALOGEX 0, 0, 141, 98
-STYLE DS_MODALFRAME | WS_POPUP
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
 EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_LEFTSCROLLBAR
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "OK",IDOK,29,83,82,15,NOT WS_TABSTOP
-    CTEXT           "Picture Preview",IDC_STATIC,43,0,54,9
-    CONTROL         "",IDC_BMPPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | 
-                    SS_REALSIZEIMAGE | SS_SUNKEN,3,9,135,71
+    CTEXT           "Picture Preview",-1,43,0,54,9
+    CONTROL         "",IDC_BMPPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_REALSIZEIMAGE | SS_SUNKEN,3,9,135,71
 END
 
 IDD_NETSTAT DIALOGEX 0, 0, 266, 144
-STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
 CAPTION "Network Status"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "OK",IDOK,23,124,81,14
-    LTEXT           "My IP Address :",IDC_STATIC,44,5,54,10
-    LTEXT           "Status :",IDC_STATIC,43,22,30,9
-    LTEXT           "Client#1 :",IDC_STATIC,6,40,31,11
-    LTEXT           "Client#2 :",IDC_STATIC,6,60,31,12
-    LTEXT           "Client#3 :",IDC_STATIC,6,79,31,12
-    LTEXT           "Client#4 :",IDC_STATIC,6,98,31,12
-    LTEXT           "Client#5 :",IDC_STATIC,135,40,31,11
-    LTEXT           "Client#6 :",IDC_STATIC,135,60,31,12
-    LTEXT           "Client#7 :",IDC_STATIC,135,79,31,12
-    EDITTEXT        IDC_MYIP,132,5,124,12,ES_MULTILINE | ES_READONLY | NOT 
-                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT1,69,40,60,12,ES_MULTILINE | ES_READONLY | NOT 
-                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT2,69,60,60,12,ES_MULTILINE | ES_READONLY | NOT 
-                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT3,69,79,60,12,ES_MULTILINE | ES_READONLY | NOT 
-                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT4,69,98,60,12,ES_MULTILINE | ES_READONLY | NOT 
-                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT5,200,40,60,12,ES_MULTILINE | ES_READONLY | 
-                    NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT6,200,60,60,12,ES_MULTILINE | ES_READONLY | 
-                    NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    EDITTEXT        IDC_CLIENT7,200,79,60,12,ES_MULTILINE | ES_READONLY | 
-                    NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    ICON            IDI_SLAVE,IDC_STATIC,10,9,20,20
+    LTEXT           "My IP Address :",-1,44,5,54,10
+    LTEXT           "Status :",-1,43,22,30,9
+    LTEXT           "Client#1 :",-1,6,40,31,11
+    LTEXT           "Client#2 :",-1,6,60,31,12
+    LTEXT           "Client#3 :",-1,6,79,31,12
+    LTEXT           "Client#4 :",-1,6,98,31,12
+    LTEXT           "Client#5 :",-1,135,40,31,11
+    LTEXT           "Client#6 :",-1,135,60,31,12
+    LTEXT           "Client#7 :",-1,135,79,31,12
+    EDITTEXT        IDC_MYIP,132,5,124,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT1,69,40,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT2,69,60,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT3,69,79,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT4,69,98,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT5,200,40,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT6,200,60,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT7,200,79,60,12,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    ICON            IDI_SLAVE,-1,10,9,20,20
     LTEXT           "Idle",IDC_STATUS,79,22,126,9
-    LTEXT           "Port",IDC_STATIC,139,112,20,10
-    EDITTEXT        IDC_PORT,160,111,32,12,ES_AUTOHSCROLL | ES_NUMBER | NOT 
-                    WS_TABSTOP
-    LTEXT           "* Default is 6500",IDC_STATIC,199,112,58,9
-    CONTROL         "NetworkEventLog",IDC_NETLOG,"Button",BS_AUTOCHECKBOX,
-                    139,126,117,10
-    GROUPBOX        "Network setting",IDC_STATIC,134,99,128,41
+    LTEXT           "Port",-1,139,112,20,10
+    EDITTEXT        IDC_PORT,160,111,32,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_TABSTOP
+    LTEXT           "* Default is 6500",-1,199,112,58,9
+    CONTROL         "NetworkEventLog",IDC_NETLOG,"Button",BS_AUTOCHECKBOX,139,126,117,10
+    GROUPBOX        "Network setting",-1,134,99,128,41
 END
 
-#endif    // English (U.S.) resources
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SETTING, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SETTING AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

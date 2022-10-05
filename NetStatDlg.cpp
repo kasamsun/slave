@@ -7,7 +7,7 @@
 #include "PlayerWnd.h"
 #include "SlaveWnd.h"
 #include "Slave.h"
-#include "CoolDlg.h"
+#include "kswafx/CoolDlg.h"
 
 extern HHOOK hCoolDlgHook;
 extern C_SlaveApp SlaveApp;

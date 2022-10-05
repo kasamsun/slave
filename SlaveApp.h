@@ -1,9 +1,9 @@
 #ifndef _SLAVEAPP_H_
 #define _SLAVEAPP_H_
 
-#include <MainAfx.h>
+#include "kswafx/MainAfx.h"
 #include <time.h>
-#include <MyTempl.h>
+#include "kswafx/MyTempl.h"
 
 // =======================================================
 //	SLAVE_BUILDDATE 
@@ -30,7 +30,7 @@ enum { NONE_CARD,ONE_CARD,TWO_CARD,THREE_CARD,FOUR_CARD };
 
 #define TRANSPARENT_COLOR RGB(255,0,255)
 
-#include <RegistryKey.h>
+#include "kswafx/RegistryKey.h"
 
 class C_SlaveApp : public C_App
 {

@@ -1,9 +1,9 @@
 #ifndef _C_SLAVEWND_H_
 #define _C_SLAVEWND_H_
 
-#include <GenericWnd.h>
-#include <MyTempl.h>
-#include <Tooltip.h>
+#include "kswafx/GenericWnd.h"
+#include "kswafx/MyTempl.h"
+#include "kswafx/Tooltip.h"
 #include "PickCardWnd.h"
 #include "Slave.h"
 
